@@ -31,4 +31,7 @@ temporaryVariable = secondList[0]
 secondList[0] = secondList[2]
 secondList[2] = temporaryVariable
 print(secondList)
+#add/append a list item to a specific place value within the list
+secondList.insert(0,"grapes")
+print(secondList)
 
