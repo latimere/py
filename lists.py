@@ -5,7 +5,7 @@ print (array)
 #add integer to list 
 array.append(10)
 print (array)
-#remove string from list
+#remove the first specified string from list
 array.remove("bob")
 print (array)
 #all arrays/lists start with 0, this prints the first item in the list
@@ -33,5 +33,8 @@ secondList[2] = temporaryVariable
 print(secondList)
 #add/append a list item to a specific place value within the list
 secondList.insert(0,"grapes")
+print(secondList)
+#removes last item from list
+secondList.pop()
 print(secondList)
 
