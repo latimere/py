@@ -8,8 +8,8 @@ floatingPointVariable = 0.35
 shortList = [7, 8, "casey", .586]
 #variable = user's keyboard input   \n = escape character and newline
 userStringInput = input("\n input string only: \n \n")
-userIntegerInput = int(input("\n input integer only: \n \n"))
-userFloatInput = float(input("\n input float only: \n \n"))
+userIntegerInput = int(input("\n input integer (whole number) only: \n \n"))
+userFloatInput = float(input("\n input float (decimal number) only: \n \n"))
 #define variable + arithmetic operators (** = exponentation)
 arithmetic = (integerVariable + floatingPointVariable) - 1 * 2 ** 4 / 1.55
 #add variable to end of array using method (methods are functions associated with specific objects)
@@ -36,5 +36,21 @@ functionWithArguments(x,y)
 from localPythonModule import importedFunction as iFunc
 #call function from imported module
 iFunc()
+
+
+
+
+
+
+#define variable 
+whileLoopCounter = 0
+whileLoopValue = 0
 #while loop
+while whileLoopValue != -999:
+    print("please enter a number")
+    whileLoopValue = input
+    whileLoopCounter = whileLoopCounter + 1
+if whileLoopCounter > 1:
+    print("you have exited the while loop") 
+    
 #for loop
